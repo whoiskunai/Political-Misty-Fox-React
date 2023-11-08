@@ -1,0 +1,16 @@
+.home-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-image: radial-gradient(circle at left bottom, rgb(192, 36, 37) 0.00%,rgb(240, 203, 53) 100.00%);
+}
+@media(max-width: 479px) {
+  .home-container {
+    align-items: center;
+    justify-content: center;
+  }
+}
